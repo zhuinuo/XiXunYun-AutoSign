@@ -2,7 +2,7 @@ name: autosign
 
 on:
   schedule:
-    - cron: '7 0 * * *'  # 每天 8 点 07运行
+    - cron: '7 22 * * *'  # 每天 8 点 07运行
   push:
     branches:
       - main  # 仅对主分支进行触发，您可以根据需要更改分支名称
